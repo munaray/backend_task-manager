@@ -1,9 +1,9 @@
-import connectDB from "./db/connect.mjs";
+import connectDB from "./db/connect.js";
 import express from "express";
-import tasks from "./routes/tasks.mjs";
+import tasks from "./routes/tasks.js";
 import dotenv from "dotenv";
-import notFound from "./middleware/404.mjs";
-import errorHandler from "./middleware/error-handler.mjs";
+import notFound from "./middleware/404.js";
+import errorHandler from "./middleware/error-handler.js";
 
 dotenv.config();
 
